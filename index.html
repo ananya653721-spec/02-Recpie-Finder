@@ -1,0 +1,134 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recipe Finder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+
+        <div class="logo">
+            🍴 Recipe Finder
+        </div>
+
+        <p>
+            Discover delicious recipes for every mood
+        </p>
+
+    </header>
+
+
+    <!-- Main Section -->
+
+    <main>
+
+        <section class="hero">
+
+            <h1>
+                What do you want to cook today?
+            </h1>
+
+            <p>
+                Search thousands of delicious recipes
+            </p>
+
+
+            <!-- Search Box -->
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="recipeInput"
+                    placeholder="Search for a recipe..."
+                >
+
+                <button id="searchBtn">
+                    🔍 Search
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Results -->
+
+        <section class="results-section">
+
+            <h2>
+                Explore Recipes
+            </h2>
+
+            <div id="recipeContainer" class="recipe-container">
+
+                <!-- Recipe cards JavaScript se yahan aayenge -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Recipe Details Modal -->
+
+    <div id="recipeModal" class="modal">
+
+        <div class="modal-content">
+
+            <button id="closeModal" class="close-btn">
+                ✕
+            </button>
+
+            <img
+                id="modalImage"
+                src=""
+                alt="Recipe Image"
+            >
+
+            <h2 id="modalTitle">
+                Recipe Name
+            </h2>
+
+            <p id="modalCategory">
+                Category
+            </p>
+
+            <h3>
+                Ingredients
+            </h3>
+
+            <ul id="ingredientsList">
+                <!-- Ingredients JavaScript se aayenge -->
+            </ul>
+
+            <h3>
+                Instructions
+            </h3>
+
+            <p id="instructions">
+                Recipe instructions will appear here.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
